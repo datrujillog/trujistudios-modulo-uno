@@ -110,7 +110,10 @@ function colorYellow() {
 }
 
 
-document.querySelector(".colorYellow").addEventListener("click", colorYellow);
+// document.querySelector(".colorYellow").addEventListener("click", colorYellow);
+// document.querySelector(".colorBlue").addEventListener("click", colorBlue);
+document.querySelector(".colorRed").addEventListener("click", colorRed);
+
 
 // ******************************************************************************************************************
 
