@@ -1,6 +1,6 @@
 
 let profile = document.querySelector("#imageProfile");
-profile.setAttribute("src", "user.png");
+profile.setAttribute("src", ".././assets/Profileuser.png");
 
 let botonApagado = document.querySelectorAll("i.bi.bi-circle");
 let botonEncendido = document.querySelectorAll("i.bi.bi-circle-fill");
