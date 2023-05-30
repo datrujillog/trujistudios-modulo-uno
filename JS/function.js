@@ -13,24 +13,25 @@ let botonRedActivo = document.querySelector(".colorRed i.bi.bi-circle-fill");
 function colorRed() {
 	let hojaEstilo = colorDocumento.getAttribute('href');
 	switch (hojaEstilo) {
-		case 'style.css':
-			colorDocumento.setAttribute('href', 'styleRed.css');
+		case '../style/style.css':
+			colorDocumento.setAttribute('href', '../style/styleRed.css');
 			botonRedInactivo.style.display = "none";
 			botonRedActivo.style.display = "block";
 			break;
-		case 'styleBlue.css':
-			colorDocumento.setAttribute('href', 'styleRed.css');
+		case '../style/styleBlue.css':
+			colorDocumento.setAttribute('href', '../style/styleRed.css');
 			botonRedInactivo.style.display = "none";
 			botonRedActivo.style.display = "block";
 			break;
-		case 'styleYellow.css':
-			colorDocumento.setAttribute('href', 'styleRed.css');
+		case '../style/styleYellow.css':
+			colorDocumento.setAttribute('href', '../style/styleRed.css');
 			botonRedInactivo.style.display = "none";
 			botonRedActivo.style.display = "block";
 			break;
 
-		case 'styleRed.css':
-			colorDocumento.setAttribute('href', 'style.css');
+		case '../style/styleRed.css':
+			// colorDocumento.setAttribute('href', '../style/style.css');
+			colorDocumento.setAttribute('href', '../style/style.css');
 			botonRedInactivo.style.display = "block";
 			botonRedActivo.style.display = "none";
 			break;
@@ -49,23 +50,23 @@ let botonBlueActivo = document.querySelector(".colorBlue i.bi.bi-circle-fill");
 function colorBlue() {
 	let hojaEstilo = colorDocumento.getAttribute('href');
 	switch (hojaEstilo) {
-		case 'style.css':
-			colorDocumento.setAttribute('href', 'styleBlue.css');
+		case '../style/style.css':
+			colorDocumento.setAttribute('href', '../style/styleBlue.css');
 			botonBlueInactivo.style.display = "none";
 			botonBlueActivo.style.display = "block";
 			break;
-		case 'styleRed.css':
-			colorDocumento.setAttribute('href', 'styleBlue.css');
+		case '../style/styleRed.css':
+			colorDocumento.setAttribute('href', '../style/styleBlue.css');
 			botonBlueInactivo.style.display = "none";
 			botonBlueActivo.style.display = "block";
 			break;
-		case 'styleYellow.css':
-			colorDocumento.setAttribute('href', 'styleBlue.css');
+		case '../style/styleYellow.css':
+			colorDocumento.setAttribute('href', '../style/styleBlue.css');
 			botonBlueInactivo.style.display = "none";
 			botonBlueActivo.style.display = "block";
 			break;
 		default:
-			colorDocumento.setAttribute('href', 'style.css');
+			colorDocumento.setAttribute('href', '../style/style.css');
 			botonBlueInactivo.style.display = "block";
 			botonBlueActivo.style.display = "none";
 			break;
@@ -82,23 +83,23 @@ let botonYellowActivo = document.querySelector(".colorYellow i.bi.bi-circle-fill
 function colorYellow() {
 	let hojaEstilo = colorDocumento.getAttribute('href');
 	switch (hojaEstilo) {
-		case 'style.css':
-			colorDocumento.setAttribute('href', 'styleYellow.css');
+		case '../style/style.css':
+			colorDocumento.setAttribute('href', '../style/styleYellow.css');
 			botonYellowInactivo.style.display = "none";
 			botonYellowActivo.style.display = "block";
 			break;
-		case 'styleRed.css':
-			colorDocumento.setAttribute('href', 'styleYellow.css');
+		case '../style/styleRed.css':
+			colorDocumento.setAttribute('href', '../style/styleYellow.css');
 			botonYellowInactivo.style.display = "none";
 			botonYellowActivo.style.display = "block";
 			break;
-		case 'styleBlue.css':
-			colorDocumento.setAttribute('href', 'styleYellow.css');
+		case '../style/styleBlue.css':
+			colorDocumento.setAttribute('href', '../style/styleYellow.css');
 			botonYellowInactivo.style.display = "none";
 			botonYellowActivo.style.display = "block";
 			break;
 		default:
-			colorDocumento.setAttribute('href', 'style.css');
+			colorDocumento.setAttribute('href', '../style/style.css');
 			botonYellowInactivo.style.display = "block";
 			botonYellowActivo.style.display = "none";
 			break;
@@ -108,13 +109,5 @@ function colorYellow() {
 	botonBlueInactivo.style.display = "block";
 	botonBlueActivo.style.display = "none";
 }
-
-
-// document.querySelector(".colorYellow").addEventListener("click", colorYellow);
-// document.querySelector(".colorBlue").addEventListener("click", colorBlue);
-// document.querySelector(".colorRed").addEventListener("click", colorRed);
-
-
-// ******************************************************************************************************************
 
 
